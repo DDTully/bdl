@@ -1,0 +1,7 @@
+[Unit]
+Description=Update bdl README and push
+
+[Service]
+Type=oneshot
+WorkingDirectory=%h/Sync/randomcode/bdl
+ExecStart=%h/Sync/randomcode/bdl/update.sh
